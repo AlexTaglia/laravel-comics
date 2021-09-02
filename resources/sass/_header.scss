@@ -1,0 +1,52 @@
+header {
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+        
+    .top{
+        background-color: $dc-blue-color;
+        color: $text-white;
+        font-size: 12px;
+        padding: 6px 0;
+    }
+    
+    nav {
+        height: 80px;
+        align-items: center;
+        font-size: 16px;
+        color: $text-dark-gray;
+        
+        img {
+            height: 60px;
+        }
+        
+        ul {
+            display: flex;
+            li {
+                a {
+                    color: $text-dark-gray;
+                    font-family: "Roboto Condensed", sans-serif;
+                    margin-left: 24px;
+                    padding-bottom: 23px;
+                    &:hover {
+                        color: $dc-blue-color;
+                        border-bottom: 5px solid $dc-blue-color;
+                    }
+                }
+            } 
+        }
+        
+        form{
+            font-size: 14px;
+            text-transform: capitalize;
+            display: inline;
+            border-bottom: 2px solid $dc-blue-color;
+            input{
+                padding-left: 4px;
+                width: 80px;
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}

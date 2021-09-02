@@ -1,1 +1,42 @@
-//
+@import "fonts";
+@import "colors";
+@import "header";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.roboto{
+    font-family: 'Roboto', serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.space-btw{
+    justify-content: space-between;
+}
+
+.ms-1{
+    margin-left: 50px;
+}
