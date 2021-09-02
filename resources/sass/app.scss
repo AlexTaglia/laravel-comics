@@ -1,11 +1,15 @@
 @import "fonts";
 @import "colors";
 @import "header";
+@import "jumbotron";
+@import "footer";
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+
 }
 
 .roboto{
@@ -37,6 +41,6 @@ a{
     justify-content: space-between;
 }
 
-.ms-1{
+.ms-50{
     margin-left: 50px;
 }

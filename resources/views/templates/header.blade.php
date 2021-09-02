@@ -1,12 +1,13 @@
 <div class="top">
     <div class="container d-flex flex-end">
         <div>dc power visa&reg;</div>
-        <div class="ms-1">additional dc sites</div>
+        <div class="ms-50">additional dc sites</div>
     </div>
 </div>
 <nav class="container d-flex space-btw">
     <div class="logo">
-        <img src="/images/dc-logo.png" alt="Logo DC"/>
+        <a href="{{ route('homepage') }}"><img src="/images/dc-logo.png" alt="Logo DC"/></a>
+        
     </div>
     
     <div class="menu">

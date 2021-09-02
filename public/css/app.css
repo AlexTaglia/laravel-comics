@@ -30,9 +30,8 @@ header nav ul {
 
 header nav ul li a {
   color: #464646;
-  font-family: "Roboto Condensed", sans-serif;
   margin-left: 24px;
-  padding-bottom: 23px;
+  padding-bottom: 26px;
 }
 
 header nav ul li a:hover {
@@ -54,10 +53,90 @@ header nav form input {
   border: none;
 }
 
+.jumbotron {
+  background-image: url(/images/jumbotron.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+.section-link {
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.section-link .left-side li {
+  color: #fff;
+  padding: 5px 24px 0 0;
+}
+
+.section-link .left-side li:first-child {
+  font-weight: bold;
+  padding-bottom: 14px;
+}
+
+.section-link .left-side li:last-child {
+  padding-bottom: 14px;
+}
+
+.section-link .left-side a {
+  color: #808080;
+}
+
+.section-link .right-side img {
+  height: 550px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-100%, -50%);
+}
+
+.section-link .container.copy {
+  padding-top: 25px;
+  color: #808080;
+}
+
+.section-link .container.copy a {
+  color: #0c7cec;
+}
+
+.social {
+  background-color: #303030;
+  height: 80px;
+}
+
+.social .container {
+  line-height: 78px;
+}
+
+.social .container span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.social .container .left-side span {
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #0c7cec;
+  box-shadow: 0 0 2px 1px #0c7cec;
+}
+
+.social .container .right-side span {
+  color: #0c7cec;
+  margin-top: 10px;
+}
+
+.social .container .right-side img {
+  padding-left: 15px;
+  vertical-align: middle;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .roboto {
@@ -89,7 +168,7 @@ a {
   justify-content: space-between;
 }
 
-.ms-1 {
+.ms-50 {
   margin-left: 50px;
 }
 

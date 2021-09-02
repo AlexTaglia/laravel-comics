@@ -25,9 +25,8 @@ header {
             li {
                 a {
                     color: $text-dark-gray;
-                    font-family: "Roboto Condensed", sans-serif;
                     margin-left: 24px;
-                    padding-bottom: 23px;
+                    padding-bottom: 26px;
                     &:hover {
                         color: $dc-blue-color;
                         border-bottom: 5px solid $dc-blue-color;
