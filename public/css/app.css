@@ -1,51 +1,41 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;
-
-0,700;1,400&display=swap);header {
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap);header {
   text-transform: uppercase;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
 }
-
 header .top {
   background-color: #0c7cec;
   color: #fff;
   font-size: 12px;
   padding: 6px 0;
 }
-
 header nav {
   height: 80px;
   align-items: center;
   font-size: 16px;
   color: #464646;
 }
-
 header nav img {
   height: 60px;
 }
-
 header nav ul {
   display: flex;
 }
-
 header nav ul li a {
   color: #464646;
   margin-left: 24px;
   padding-bottom: 26px;
 }
-
 header nav ul li a:hover {
   color: #0c7cec;
   border-bottom: 5px solid #0c7cec;
 }
-
 header nav form {
   font-size: 14px;
   text-transform: capitalize;
   display: inline;
   border-bottom: 2px solid #0c7cec;
 }
-
 header nav form input {
   padding-left: 4px;
   width: 80px;
@@ -53,8 +43,63 @@ header nav form input {
   border: none;
 }
 
+main {
+  background-color: #1c1c1c;
+}
+main .comics-section {
+  padding: 50px 0;
+}
+main .comics-section .cover {
+  padding: 10px;
+  width: calc(100% / 6);
+}
+main .comics-section .cover a {
+  color: #fff;
+  text-transform: uppercase;
+}
+main .comics-section .cover img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  width: 100%;
+  height: 180px;
+  padding-bottom: 10px;
+}
+main .button-container {
+  justify-content: center;
+}
+main .button-container .btn {
+  width: 150px;
+  line-height: 34px;
+  margin: 20px 0;
+  background-color: #0c7cec;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+main .section-blu {
+  background-color: #0c7cec;
+  padding: 30px 0;
+}
+main .container {
+  display: flex;
+}
+main .container .col {
+  width: calc(100% / 5);
+}
+main .container .col img {
+  height: 50px;
+  vertical-align: middle;
+  padding-right: 20px;
+}
+main .container .col span {
+  color: #fff;
+}
+
 .jumbotron {
-  background-image: url(/images/jumbotron.jpg);
+  background-image: url("/images/jumbotron.jpg");
   background-size: cover;
   height: 400px;
 }
@@ -66,37 +111,30 @@ header nav form input {
   overflow: hidden;
   padding: 40px 0;
 }
-
 .section-link .left-side li {
   color: #fff;
   padding: 5px 24px 0 0;
 }
-
 .section-link .left-side li:first-child {
   font-weight: bold;
   padding-bottom: 14px;
 }
-
 .section-link .left-side li:last-child {
   padding-bottom: 14px;
 }
-
 .section-link .left-side a {
   color: #808080;
 }
-
 .section-link .right-side img {
   height: 550px;
   position: absolute;
   top: 50%;
   transform: translate(-100%, -50%);
 }
-
 .section-link .container.copy {
   padding-top: 25px;
   color: #808080;
 }
-
 .section-link .container.copy a {
   color: #0c7cec;
 }
@@ -105,28 +143,23 @@ header nav form input {
   background-color: #303030;
   height: 80px;
 }
-
 .social .container {
   line-height: 78px;
 }
-
 .social .container span {
   font-size: 20px;
   font-weight: bold;
 }
-
 .social .container .left-side span {
   color: #fff;
   padding: 10px;
   border: 1px solid #0c7cec;
   box-shadow: 0 0 2px 1px #0c7cec;
 }
-
 .social .container .right-side span {
   color: #0c7cec;
   margin-top: 10px;
 }
-
 .social .container .right-side img {
   padding-left: 15px;
   vertical-align: middle;
@@ -164,6 +197,10 @@ a {
   justify-content: flex-end;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .space-btw {
   justify-content: space-between;
 }
@@ -171,4 +208,3 @@ a {
 .ms-50 {
   margin-left: 50px;
 }
-

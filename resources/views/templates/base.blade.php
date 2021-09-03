@@ -15,13 +15,9 @@
         @include('templates.header')
     </header>
 
-    <div class="jumbotron">
-        @include('templates.jumbotron')
-    </div>
-
-        <div>
-            @yield('content')
-        </div>
+    <main>
+        @yield('main')
+    </main>
 
     <footer>
         @include('templates.footer')

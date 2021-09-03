@@ -1,6 +1,7 @@
 @import "fonts";
 @import "colors";
 @import "header";
+@import "main";
 @import "jumbotron";
 @import "footer";
 
@@ -35,6 +36,10 @@ a{
 
 .flex-end{
     justify-content: flex-end;
+}
+
+.flex-wrap{
+    flex-wrap: wrap
 }
 
 .space-btw{
