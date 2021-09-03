@@ -1,5 +1,7 @@
 main{
+  .comics-container{
     background-color: $bg-gray-main;
+  }
 
     .comics-section{
         padding: 50px 0;   
@@ -23,7 +25,6 @@ main{
         }
     }
 
-
     .button-container{
         justify-content: center;
         
@@ -42,7 +43,7 @@ main{
     .section-blu {
         background-color: $dc-blue-color;
         padding: 30px 0;
-      }
+    }
       .container {
         display: flex;
     
@@ -59,5 +60,41 @@ main{
             color: $text-white;
           }
         }
+      }
+
+      .comics-info{
+        background-color: white;
+        padding: 40px 0;
+
+        .left{
+          padding-right: 30px;
+
+          .purchase-section{
+            background-color: $green;
+            border: 1px solid #408d42;
+            color: white;
+            padding: 25px;
+          }
+
+          .description{
+            padding-top: 25px;
+            letter-spacing: 1px;
+            font-size: 18px;
+            font-weight: 600;
+            color: $text-dark-gray;
+          }
+        }
+        
+
+
+        h1{
+          text-transform: uppercase;
+        }
+
+        img{
+          height: 100%;
+        }
+
+
       }
 }

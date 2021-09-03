@@ -43,7 +43,7 @@ header nav form input {
   border: none;
 }
 
-main {
+main .comics-container {
   background-color: #1c1c1c;
 }
 main .comics-section {
@@ -96,6 +96,32 @@ main .container .col img {
 }
 main .container .col span {
   color: #fff;
+}
+main .comics-info {
+  background-color: white;
+  padding: 40px 0;
+}
+main .comics-info .left {
+  padding-right: 30px;
+}
+main .comics-info .left .purchase-section {
+  background-color: #55BA59;
+  border: 1px solid #408d42;
+  color: white;
+  padding: 25px;
+}
+main .comics-info .left .description {
+  padding-top: 25px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #464646;
+}
+main .comics-info h1 {
+  text-transform: uppercase;
+}
+main .comics-info img {
+  height: 100%;
 }
 
 .jumbotron {
